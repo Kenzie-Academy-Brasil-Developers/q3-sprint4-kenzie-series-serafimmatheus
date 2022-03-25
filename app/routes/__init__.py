@@ -1,7 +1,7 @@
 from flask import Blueprint, Flask
 from .series_routes import bp as series_bp
 
-bp_app = Blueprint("api", __name__, url_prefix="/api")
+bp_app = Blueprint("api", __name__, url_prefix="")
 
 
 def init_app(app: Flask):
